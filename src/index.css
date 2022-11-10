@@ -56,6 +56,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, 
@@ -120,7 +121,7 @@ img {
     }
 }
 
- /* ===========MEDIA QUERY: Medium screen ===========  */
+ /* ===========MEDIA QUERY: Small screen ===========  */
 @media screen and (max-width: 600px) {
     .container{
         width: var(--container-width-sm);
