@@ -100,9 +100,13 @@
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
+    .about__content {
+        text-align: center;
+        margin: 1.5rem 0.5rem;
+
+    }
 
     .about__content p {
         text-align: center;
-        margin: 1.5rem 0.5rem;
     }
 }

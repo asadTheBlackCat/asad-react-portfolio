@@ -30,17 +30,20 @@ function About() {
             <article className="about__card">
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>300+ clients</small>
+              <small>Full time job + many clients</small>
             </article>
 
             <article className="about__card">
               <AiOutlineFundProjectionScreen className='about__icon'/>
               <h5>Projects</h5>
-              <small>100+ completed</small>
+              <small>30+ real life projects</small>
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsum maxime nostrum vero unde et quibusdam temporibus fugit aliquid animi! Facere fuga eum voluptatem distinctio nihil quidem tempora modi doloribus?</p>
+          <p>Hi, I'm Asadullah. I am a Front-End Engineer with experience in building websites and web applications. I specialize in various JavaScript front framework like Angular, React & Vue. I've also worked with other technologies including Ruby on Rails, Django, and Flask.</p>
+          <p>
+            I completed BSc(Hons) in Computer Science & Engineering from Manarat International University. At the University I created many projects like Web applications using RoR, Python-Django & Flask, AI projects using Machine Learning. Also solved many problems by C & C++ programming language.
+          </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
