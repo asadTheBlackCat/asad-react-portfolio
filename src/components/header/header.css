@@ -1,5 +1,4 @@
 header {
-    height: 120vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -7,7 +6,19 @@ header {
 .header__container {
     text-align: center;
     height: 100%;
+    width: 100%;
     position: relative;
+}
+
+.header__div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.header__text {
+    margin-top: 7rem;
+    text-align: right;
 }
 
 /* ============== CTA ============ */
@@ -15,7 +26,7 @@ header {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
  /* =================== SOCIAL ============= */
@@ -36,17 +47,22 @@ header {
     background: var(--color-primary);
  }
 
-  /* =================== ME ============= */
-  .me {
-      background: linear-gradient(var(--color-primary), transparent);
-      width: 22rem;
-      height: 30rem;
-      position: absolute;
-      left: calc(50% - 11rem);
-      margin-top: 4rem;
-      border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
+/* =================== ME ============= */
+.me {
+    background: var(--color-primary-variant);
+    max-width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 12rem 12rem 0 0;
     padding: 5rem 1.5rem 1.5rem 1.5 rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.me:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
 }
 
 /* =================== SCROLL DOWN ============= */
@@ -61,16 +77,26 @@ header {
 
 /* ===========MEDIA QUERY: Medium screen ===========  */
 @media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
+    .me {
+        width: 40%;
+    }
+    .header__div {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .cta {
+        justify-content: center;
+    }
+
+    .header__text {
+        margin-top: 0;
+        text-align: center;
     }
 }
 
 /* ===========MEDIA QUERY: Medium screen ===========  */
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
     .header__social,
     .scroll__down {
         display: none;

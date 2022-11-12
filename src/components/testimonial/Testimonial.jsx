@@ -28,9 +28,9 @@ function Testimonial() {
           <div className="client__avatar">
             <img src={clientImage4} alt="Client Photo" />
           </div>
-          <h5 className='client__name'>Arial Cums</h5>
+          <h5 className='client__name'>Cosmel Villalobos</h5>
           <small className='client__review' >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta hic quis dolores earum perspiciatis sunt reiciendis! Quis labore nostrum dolorem.
+          I met A B M Asadullah during pair programming at Microverse we worked on a few projects. He is very creative and supportive. He is a quick learner and hard-working. He has a great way of simplifying complex problems into bite-sized pieces. If you want someone who is a great collaborator and great at solving problems, A B M Asadullah is the right guy for you! <a href="https://www.linkedin.com/in/cosvilla/" target='_blank'>Link</a>
           </small>
         </SwiperSlide>
         <SwiperSlide className="testimonial">

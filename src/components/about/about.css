@@ -66,9 +66,23 @@
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
+    margin: 1rem 0;
     color: var(--color-light);
     text-align: justify;
+}
+
+.about__paragraph {
+    background: var(--color-primary-variant);
+    padding: 0.3rem 1.5rem;
+    margin: 2rem 0;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.about__paragraph:hover {
+    border-color: 1px solid var(--color-primary-variant);
+    background: transparent;
 }
 
 
