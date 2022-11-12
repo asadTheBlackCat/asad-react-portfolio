@@ -1,5 +1,6 @@
 {
   "name": "awasome-portfolio",
+  "homepage": "http://asad.tech",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

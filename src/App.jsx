@@ -1,5 +1,4 @@
 import React from 'react'
-import {Helmet} from "react-helmet";
 
 // component linking
 import Header from './components/header/Header'
@@ -15,10 +14,6 @@ import Footer from './components/footer/Footer';
 const App = () => {
   return (
     <div>
-        <Helmet>
-                <title>My Awasome Portfolio</title>
-        </Helmet>
-
         <Header />
         <Nav />
         <About />
