@@ -40,7 +40,7 @@ function About() {
             </article>
           </div>
           <div className="about__paragraph">
-            <p>Hi, I'm Asadullah. I am a Front-End Engineer with experience in building websites and web applications. I specialize in various JavaScript front framework like Angular, React & Vue. I've also worked with other technologies including Ruby on Rails, Django, and Flask.</p>
+            <p>I am a Front-End Engineer with experience in building websites and web applications. I specialize in various JavaScript front framework like Angular, React & Vue. I've also worked with other technologies including Ruby on Rails, Django, and Flask.</p>
             <p>
               I completed BSc(Hons) in Computer Science & Engineering from Manarat International University. At the University I created many projects like Web applications using RoR, Python-Django & Flask, AI projects using Machine Learning. Also solved many problems by C & C++ programming language.
             </p>
